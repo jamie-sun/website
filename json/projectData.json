@@ -1,0 +1,102 @@
+{
+    "aje": {
+        "image": "./images-combined/aje.png",
+        "title": "Aje",
+        "skills": "SASS, jQuery, Liquid, Shopify Plus",
+        "text": [
+            "Australian fashion ecommerce project",
+            "Main developer building both the initial Aje website and their mini project Aje Athletica during project phases",
+            "Sole developer for the project as managed services",
+            "Site launch returned successful results in increasing conversion rate by 135% compared to their previous site",
+            "International sites for global regions including the US, AU and NZ"
+        ],
+        "link": "https://ajeworld.com.au/"
+    },
+    "ceres": {
+        "image": "./images-combined/ceres.png",
+        "title": "Ceres Organic",
+        "skills": "Python, DynamoDB, jQuery, SASS, Liquid",
+        "text": [
+            "NZ health food brand dedicated to foods with organic and natural ingredients",
+            "Lead developer for the project guiding the development team, performed all code reviews, set up CI/DI processes, provided technical guidance to PM team",
+            "Implement complex front and backend solutions to business requirements"
+        ],
+        "link": "https://ceres.co.nz/"
+    },
+    "bondi": {
+        "image": "./images-combined/bondi-sands.png",
+        "title": "Aje",
+        "skills": "SASS, jQuery, Liquid, Shopify Plus",
+        "text": [
+            "Australian beauty and skin care ecommerce project",
+            "Main developer building both the initial Tan website and their Skincare mini project",
+            "Lead developer for the project as managed services while directing the development team, performed all code reviews",
+            "In charge of deployments and version control for all international sites including AU, US, EU and UK stores"
+        ],
+        "link": "https://bondisands.com.au"
+    },
+    "vivo": {
+        "image": "./images-combined/vivo.png",
+        "title": "Vivo",
+        "skills": "SASS, jQuery, Bigcommerce",
+        "text": [
+            "NZ hair related products/services ecommerce project",
+            "Web developer building the initial site during the project phase"
+        ],
+        "link": "https://www.vivo.co.nz/"
+    },
+    "baby": {
+        "image": "./images-combined/baby-village.png",
+        "title": "Baby Village",
+        "skills": "SASS, jQuery, Liquid, Shopify Plus",
+        "text": [
+            "Australian ecommerce project selling baby related products",
+            "Web developer building the initial site during the project phase",
+            "Implemented complicated multi 4 level custom mega menu and mobile menu"
+        ],
+        "link": "https://www.babyvillage.com.au/"
+    },
+    "mocka": {
+        "image": "./images-combined/mocka.png",
+        "title": "Mocka",
+        "skills": "SASS, jQuery, Bigcommerce",
+        "text": [
+            "NZ ecommerce project focused on home furniture products",
+            "Project goal was building an optimised and performance orientated project",
+            "Web developer building the initial site during the project phase",
+            "Built front end functionalities of the gift voucher system"
+        ],
+        "link": "https://www.mocka.co.nz/"
+    },
+    "bamboo": {
+        "image": "./images-combined/bamboo-body.png",
+        "title": "Bamboo Body",
+        "skills": "SASS, jQuery, Liquid, Shopify Plus",
+        "text": [
+            "Australian fashion ecommerce project",
+            "Provided and built complex solution to their maternity and plus size functional requirements, customised and altered Shopify functionalities to meet business requiments"
+        ],
+        "link": "https://www.bamboobody.com.au/"
+    },
+    "kivari": {
+        "image": "./images-combined/kivari.png",
+        "title": "Kivari",
+        "skills": "SASS, jQuery, Liquid, Shopify Plus",
+        "text": [
+            "Australian fashion ecommerce project",
+            "Web developer building the initial site during the project phase",
+            "Involved in building most of the key pages and components"
+        ],
+        "link": "https://www.kivari.com.au/"
+    },
+    "manuka": {
+        "image": "./images-combined/manuka-health.png",
+        "title": "Manuka Health",
+        "skills": "SASS, jQuery, Liquid, Shopify Plus",
+        "text": [
+            "NZ ecommerce brand focused on honey related products",
+            "Web developer building the initial site during the project phase"
+        ],
+        "link": "https://nz.manukahealth.com/"
+    }
+}

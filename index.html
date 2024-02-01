@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&family=Montserrat&family=NTR&display=swap" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.shuffle/1.0.2/jquery.shuffle.min.js"></script>
+
+    <title>Jamie Sun</title>
+</head>
+<body>
+    <div class="page-overlay covered"></div>
+    <div class="page-wrapper">
+        <div id="modal" class="">
+            <div class="modal-background"></div>
+        </div>
+        <div id="nav">
+            <div class="icon-wrapper">
+                <img src="./icons/menu.png" class="icon-menu" alt="menu-icon">
+                <img src="./icons/close.png" class="icon-close" alt="close-icon">
+            </div>
+            <ul>
+                <li style="--n: 0"><a href="#top-container">home</a></li>
+                <li style="--n: 1"><a href="#about-container">about</a></li>
+                <li style="--n: 2"><a href="#projects-container">projects</a></li>
+                <li style="--n: 3"><a href="#skills-container">skills</a></li>
+                <li style="--n: 4"><a href="#experience-container">experience</a></li>
+            </ul>
+        </div>
+        <div id="top-container">
+            <div class="inner__container">
+                <div class="inner__container--top">
+                    <h1 class="fade-in-animation">hi, i'm <span>jamie sun.</span></h1> 
+                    <h4 class="fade-in-animation animation-delayed">and i do website stuff</h4>
+                </div>
+                <div class="inner__container--bottom">
+                    <div id="emoji-type" class="emoji-content"></div>
+                    <span class="emoji-cursor">|</span>
+                </div>
+            </div>
+            <a href="#about-container"><img src="./icons/arrow-down.png" alt="arrow-down" class="arrow-down"></a>
+        </div>
+        <div id="about-container">
+            <div class="inner__container">
+                <h2 class="heading fade-in-animation">About</h2>
+                <div class="inner__container--wrapper fade-in-animation animation-delayed">
+                    <p>
+                        I am a full stack web developer who enjoys creating beautiful websites and watching them come to life. I am currently at <a href="https://www.moustacherepublic.com/" target="_blank">Moustache Republic</a> and have over 4 years of experience working on eCommerce websites for major retail brands 
+                        across Australia and New Zealand.
+                    </p>
+                    <p>
+                        My expertise lies in Shopify/Shopify Plus and BigCommerce platforms, and have been involved in building and maintaining websites, developing extensibility apps and everything in between
+                        eCommerce needs. 
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div id="projects-container">
+            <div class="inner__container">
+                <h2 class="heading fade-in-animation">Projects</h2>
+                <div class="inner__container--wrapper">
+                    <div class="project_images">
+                        <div class="project_images-item fade-in-animation" data-project-name="aje">
+                            <img src="./images/aje-desktop.png" alt="aje-image">
+                        </div>
+                        <div class="project_images-item fade-in-animation" data-project-name="ceres">
+                            <img src="./images/ceres-desktop.png" alt="ceres-image">
+                        </div>
+                        <div class="project_images-item fade-in-animation" data-project-name="bondi">
+                            <img src="./images/bondi-sands-desktop.png" alt="bondi_sands-image">
+                        </div>
+                        <div class="project_images-item fade-in-animation" data-project-name="vivo">
+                            <img src="./images/vivo-desktop.png" alt="vivo-image">
+                        </div>
+                        <div class="project_images-item fade-in-animation" data-project-name="baby">
+                            <img src="./images/baby-village-desktop.png" alt="baby_village-image">
+                        </div>
+                        <div class="project_images-item fade-in-animation" data-project-name="mocka">
+                            <img src="./images/mocka-desktop.png" alt="mocka-image">
+                        </div>
+                        <div class="project_images-item fade-in-animation" data-project-name="bamboo">
+                            <img src="./images/bamboo-body-desktop.png" alt="bamboo_body-image">
+                        </div>
+                        <div class="project_images-item fade-in-animation" data-project-name="kivari">
+                            <img src="./images/kivari-desktop.png" alt="kivari-image">
+                        </div>
+                        <div class="project_images-item fade-in-animation" data-project-name="manuka">
+                            <img src="./images/manuka-health-desktop.png" alt="manuka_health-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="skills-container" class="fade-in-animation">
+            <div class="inner__container">
+                <h2 class="heading">Skills</h2>
+                <div class="inner__container--wrapper">
+                    <div class="list-wrapper fade-in-animation">
+                        <p class="list-title">Languages</p> 
+                        <p class="list-content">JS, React, TypeScript, CSS/SCSS, HTML, JSON, SQL, Python</p>
+                    </div>
+                    <div class="list-wrapper fade-in-animation">
+                        <p class="list-title">Frameworks & Tools</p>
+                        <p class="list-content">jQuery, Liquid, Stencil, GIT</p>
+                        <p class="list-content">Flask, DynamoDB</p>
+                        <p class="list-content">CircleCI, Bitbucket Pipeline</p>
+                        <p class="list-content">Webpack, Gulp</p>
+                    </div>
+                    <div class="list-wrapper fade-in-animation">
+                        <p class="list-title">Integrations</p>
+                        <p class="list-content">Klaviyo, Yotpo, BoostCommerce, Searchspring, Foursixty</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="experience-container">
+            <div class="inner__container">
+                <h2 class="heading fade-in-animation">Experience</h2>
+                <div class="inner__container--wrapper">
+                    <div class="list-wrapper fade-in-animation">
+                        <p class="list-title">Moustache Republic (Oct 2019 - Present)</p>
+                        <p class="list-content">Responsible for building new websites from designs, maintaining existing sites, providing solutions for new features, debugging issues, PR code review, training new developers</p>
+                        <p class="list-content">Extensive knowledge of Shopify and BigCommerce platforms</p>
+                    </div>
+                    <div class="list-wrapper fade-in-animation">
+                        <p class="list-title">University of Auckland (2015 - 2018)</p>
+                        <p class="list-content">Computer Science and Information Systems double major</p>
+                        <p class="list-content">First exposure of software development and learnt the fundamentals of coding</p>
+                        <p class="list-content">Achieved the International Institute of Business Analysis (IIBA) Certificate - 2016</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer-container">
+            <div class="inner__container">
+                <p>Jamie Sun</p>
+            </div>
+        </div>
+        
+    </div>
+</body>
+<script type="module" src="script/script.js"></script>
+</html>
