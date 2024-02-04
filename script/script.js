@@ -1,19 +1,24 @@
-import projectData from '../json/projectData.json' assert { type: "json" };
-import emojiList from '../json/emojiList.json' assert { type: "json" };
+const loadProjectDataJson = async () => {
+    try {
+        const response = await fetch('../json/projectData.json');
+        const data = await response.json();
+        return data;
+    }
+    catch(error) {
+        console.error('Error loading JSON file:', error);
+    };
+}
 
-// $('#top-banner h1').animate({
-//     opacity: 1
-// },2000)
-
-// $(document).ready(function(){
-//     $('#top-banner h1').animate({opacity: 1},1000, function() {
-//         $('.summary-container').fadeIn('slow', function() {
-//             $('.projects-container').fadeIn('slow', function() {
-//                 $('.info-container').fadeIn('slow')    
-//             });
-//         })
-//     });
-// });
+const loademojiListJson = async () => {
+    try {
+        const response = await fetch('../json/emojiList.json');
+        const data = await response.json();
+        return data;
+    }
+    catch(error) {
+        console.error('Error loading JSON file:', error);
+    };
+}
 
 const closeModal = () => {
     $('body').on('click', '.close-button', () => {
@@ -188,6 +193,9 @@ const pageSwipeAnimationInit = () => {
         fadeInAnimationInit();
     }, 800);
 }
+
+const projectData = await loadProjectDataJson();
+const emojiList = await loademojiListJson();
 
 $(document).ready(() => {
     closeModal();
