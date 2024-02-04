@@ -716,12 +716,10 @@ h4 {
   margin-bottom: 50px;
 }
 
-.list-content:before {
-  content: "-";
+.list-content span {
   font-weight: bold;
   color: #04c2c9;
-  position: absolute;
-  left: -15px;
+  margin-right: 10px;
 }
 
 #footer-container {

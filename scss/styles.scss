@@ -523,12 +523,10 @@ h4 {
     &:last-of-type {
         margin-bottom: 50px;
     }
-    &:before {
-        content: "-";
+    span {
         font-weight: bold;
         color: $colour-teal;
-        position: absolute;
-        left: -15px;
+        margin-right: 10px;
     }
 }
 
