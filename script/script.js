@@ -1,6 +1,6 @@
 const loadProjectDataJson = async () => {
     try {
-        const response = await fetch('/website/json/projectData.json');
+        const response = await fetch('../json/projectData.json');
         const data = await response.json();
         return data;
     }
@@ -11,7 +11,7 @@ const loadProjectDataJson = async () => {
 
 const loademojiListJson = async () => {
     try {
-        const response = await fetch('/website/json/emojiList.json');
+        const response = await fetch('../json/emojiList.json');
         const data = await response.json();
         return data;
     }
